@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>实名认证</title>
+    <link rel="stylesheet" href="../../css/style-base.css">
+    <link rel="stylesheet" href="../../css/style-common.css">
+</head>
+<body class="login-register-bg">
+<header>
+    <div class="headerContainer">
+        <div class="headerContainer_left left">
+        	 <span class="backIcon" onclick="history.back(-1)"></span>
+        </div>
+        <div class="headerContainer_center">
+            <span>实名认证</span>
+        </div>
+        <div class="headerContainer_right right">
+        </div>
+    </div>
+</header>
+<div class="nav-bottom">
+   <div class="row setupBlock real-name-bottom">
+           <a class="userCentreColor" href="avascript:void(0)">  
+            <span class="questionLine">
+                <div class="goods-desc">
+                 <span>
+                    <img src="../../images/ladySmallIcon.png" width="64px">
+                 </span>
+                 </div>
+                    <span class="right arrowLeftIcon-user real-name-my-head">
+                         我的头像
+                    </span>
+                </span>
+           </a>
+    </div>
+     <div class="row setupBlock">
+           <a class="userCentreColor" href="javascript:void(0)">  
+            <span class="questionLine">
+                <div class="goods-desc">
+                     <span class="real-name-my-card">
+                         身份证号码
+                    </span>
+                 </div>
+                   <span class="right">
+                     320723165202314
+                 </span>
+                    
+                </span>
+           </a>
+    </div>
+     <div class="row setupBlock real-name-bottom">
+           <a class="userCentreColor" href="javascript:void(0)">  
+            <span class="questionLine">
+                <div class="goods-desc">
+                    <span class="real-name-my-card">
+                         真实姓名
+                    </span>
+                 </div>
+                  <span class="right">
+                    <input type="text"/>
+                 </span>
+              
+                </span>
+           </a>
+    </div>
+     <div class="row setupBlock real-name-padding-bottom">
+          <div class="row-cols-half">
+             <span>身份证正面</span>
+             <div class="imgInpBlock">
+                 <input type="file" id="imgInp" accept="image/*" class="imgInp">
+                  <img id="blah" src="../../images/add.png" alt="your image" width="32px" height="32px" class="blah">
+                </div>
+          </div>
+          <div class="row-cols-half">
+             <span>身份证反面</span>
+             <div class="imgInpBlock">
+                 <input type="file" id="imgInpBack" accept="image/*" class="imgInp">
+                  <img id="blahBack" src="../../images/add.png" alt="your image" width="32px" height="32px" class="blah">
+                </div>
+          </div>
+    </div>
+
+     <div class="row setupBlock real-name-bottom">
+           <a class="userCentreColor" href="javascript:void(0)">  
+            <span class="questionLine">
+                <div class="goods-desc">
+                 <span>
+                    保证金: 
+                 </span><span>10000元</span>
+                </div>
+                  
+                </span>
+           </a>
+    </div>
+
+     <div class="row setupBlock real-name-gray-bg">
+         <span>活动期间免保证金</span>
+    </div>
+
+    <div class="row setupBlock real-name-checkbox-btn">
+          <div class="real-name-checkbox">
+             <input type="checkbox"/><label>我已阅读并同意《平台服务协议》</label>
+          </div>
+          <a href="javascript:void(0)" class="real-name-btn">提交认证</a>
+    </div>
+</div>
+
+
+<nav class="clearfix">
+    <a href="../home.html"  class="one on">
+        <div class="beij borderRight">
+            <div class="shnm1"></div>       <div class="db">首页</div>
+        </div>
+    </a>
+    <a href="#"  class="one on">
+        <div class="beij borderRight">
+            <div class="shnm2"></div>       <div class="db">商品</div>
+        </div>
+    </a>
+    <a href="#" class="one on">
+        <div class="beij borderRight">
+            <div class="shnm3"></div>       <div class="db">微店</div>
+        </div>
+    </a>
+    <a href="./index.html"  class="one on">
+        <div class="beij">
+            <div class="shnm-4"></div>      <div class="db activeText">我的</div>
+        </div>
+    </a>
+</nav>
+ <script>
+     window.URL = window.URL || window.webkitURL;
+    var fileElem = document.getElementById("imgInp");
+    function handleFiles(obj) {
+        var files = obj.files;
+        console.log(window.URL);
+        if(window.URL){
+            //File API
+           // alert(files[0].name + "," + files[0].size + " bytes");
+            //img.src = window.URL.createObjectURL(files[0]); //创建一个object URL，并不是你的本地路径
+            $('#blah').attr('src', window.URL.createObjectURL(files[0]));
+        }else if(window.FileReader){
+            //opera不支持createObjectURL/revokeObjectURL方法。我们用FileReader对象来处理
+            var reader = new FileReader();
+            reader.readAsDataURL(files[0]);
+            reader.onload = function(e){
+                 $('#blah').attr('src', e.target.result);
+            }
+        }else{
+            //ie
+            obj.select();
+            obj.blur();
+            var nfile = document.selection.createRange().text;
+            document.selection.empty();
+             $('#blah').attr('src', nfile);
+           
+            //fileList.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='image',src='"+nfile+"')";
+        }
+    }
+  
+
+    $("#imgInp").change(function(){
+        //readURL(this);
+        handleFiles(this);
+    });
+  </script>
+</body>
+</html>

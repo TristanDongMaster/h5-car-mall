@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+	<title>我的订单</title>
+    <link rel="stylesheet" href="../../css/style-base.css">
+    <link rel="stylesheet" href="../../css/style-common.css">
+    <link rel="stylesheet" href="../../css/style-home.css">
+    <link rel="stylesheet" href="../../css/merchant.css">
+    <link rel="stylesheet" href="../../css/common.css">
+</head>
+<body>
+<header>
+    <div class="headerContainer">
+        <div class="headerContainer_left left">
+        	<span class="backIcon" onclick="history.back(-1)"></span>
+        </div>
+        <div class="headerContainer_center">
+            <span>提现</span>
+        </div>
+        <div class="headerContainer_right right">
+        	<a href="withdraw-list.html"> <span class="withdraw-list">提现记录</span></a>
+        </div>
+    </div>
+</header>
+
+	<div class="container" id="withdraw">
+		<div class="merchant-info">
+			<div class="merchant-content">
+				<div class="merchant-content-top clearfix">
+					<div class="left content-logo">
+						<img src="../../images/bank-logo.png">
+					</div>
+					<div class="left content-des bank-des">
+						<div class="content-detail">
+							<span class="des-title">中国建设银行</span> 
+						</div>
+						
+						<div class="content-detail">
+							<div class="order-detail">尾号1233储蓄卡</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="withdraw-money">可提现金额：<span class="order-money price-red">1000</span></div>
+
+		<div class="merchant-info bg-white">
+				<div class="cooperation_ListLine">
+					<div class="customer-detail ">
+						金额： <input name="userName" id="userName" type="text" placeholder="请输入提现金额" value="李刚先生" required="required">
+					</div>
+				</div>
+
+				<div class="cooperation_ListLine">
+					<div class="customer-detail">
+						到账时间：系统会尽快给你提现
+					</div>
+				</div>
+		</div>
+
+		<div id="ensure-withdraw" class="share-btn"> 下一步  </div> 
+		
+
+		</div>
+
+
+<div class="goodCommon" id="withdraw-dialog" style="display:none">
+    <div class="goodTableRow">
+        <div class="goodTableCell">
+            <div class="goodTableContent car-confirm-colors-list-block">
+            	<i class="closeBtn" onclick="javascript:this.parentNode.parentNode.parentNode.parentNode.style.display='none'"></i>
+            	<div class="withdraw-des withdraw-title"> <span class="icon icon_24 left"><img src="../../images/one.png"></span> 请输入提现密码</div>
+				<div class="withdraw-des">零钱提取</div>
+				<div class="withdraw-value withdraw-des">$10000</div>
+				<div class="row">
+		            <div class="row-input-label">
+		                <input type="text" placeholder="请输入密码">
+		            </div>
+        		</div>
+				<div class="withdraw-save">
+				    <a class="save-btn" href="withdraw-detail.html">  
+				        确定
+					</a>
+				 </div>
+            	
+          </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<nav class="clearfix">
+    <a href="../home.html"  class="one on">
+        <div class="beij borderRight">
+            <div class="shnm-1"></div>		<div class="db ">首页</div>
+        </div>
+    </a>
+    <a href="../merchant/management.html"  class="one on">
+        <div class="beij borderRight">
+            <div class="shnm2"></div>		<div class="db ">商品</div>
+        </div>
+    </a>
+    <a href="../mystore/mystore.html" class="one on">
+        <div class="beij borderRight">
+            <div class="shnm3"></div>		<div class="db">微店</div>
+        </div>
+    </a>
+    <a href="../user/index.html"  class="one on">
+        <div class="beij">
+            <div class="shnm4"></div>		<div class="db">我的</div>
+        </div>
+    </a>
+</nav>
+
+	<script type="text/javascript" src="../../js/lib/zepto.min.js"></script> 
+	<script type="text/javascript" src="../../js/merchant.js"></script> 
+</body>
+</html>

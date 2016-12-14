@@ -1,0 +1,74 @@
+ .order-status{padding-bottom: 60px;}
+ .order-status-number{margin:10px 0;}
+ .order-status-number > div{width: 92%;
+display: inline-block;
+margin: 0 4%}
+.high-color{color:red;}
+  .order-status-number > span{display:block;margin-left: 10px;}
+ .logis-detail-d {
+  border-left: 2px solid #ccc;
+  padding: 10px 0 0px 35px;
+  margin-left: 25px;
+  position: relative; }
+  .logis-detail-d.logis-detail-first {
+    border-left-color: #fff; }
+    .logis-detail-d.logis-detail-first .logis-detail-content {
+      color: #000;
+     }
+    .logis-detail-d.logis-detail-first:after {
+      background: #3F0;
+      border: 2px solid #fff; }
+ .logis-detail-d.logis-detail-first:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      left: -9px;
+      top: 14px;
+      width: 16px;
+      height: 16px;
+      -webkit-border-radius: 16px;
+      border-radius: 16px;
+      background: #3F0;
+      z-index: 3; }
+   .logis-detail-d.logis-detail-first .leftLine {
+      position: absolute;
+     
+      height: -moz-calc(100% - 27px);
+      height: -webkit-calc(100% - 27px);
+      height: calc(100% - 27px);
+      width: 2px;
+      display: inline-block;
+      top: 30px;
+      left: -2px;
+      background-color: #ccc; }
+  .logis-detail-d .logis-detail-content {
+    position: relative;
+    color: #9999A7;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+    .logis-detail-d .logis-detail-content span {}
+   .logis-detail-d .logis-detail-content span.logis-detail-content-time {
+        margin-bottom: 5px; }
+  .logis-detail-d:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    top: 17px;
+    width: 6px;
+    height: 6px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #bdbdbd;
+    border: 2px solid #eee;
+    z-index: 4; }
+
+    .btn-pay{
+  text-align: center;
+  background-color: #ff6d44;
+  padding: 6px;
+  color: white;
+  width: 60%;
+  margin: 16px auto;
+}

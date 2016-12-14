@@ -1,0 +1,231 @@
+body{
+	background-color: #e4e3e3;
+	font-family:"microsoft yahei", PingFang-SC-Regular, "Helvetica Neue", Helvetica,  sans-serif; 
+}
+
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+
+.inline-block{
+	display: inline-block;;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+.content-block{
+	padding: 20px 10px;
+}
+
+
+.settingIcon {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background: url('../images/setting.png') no-repeat top left;
+  background-size: 100%;
+}
+.searchIcon {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background: url('../images/search.png') no-repeat top left;
+  background-size: 100%;
+}
+
+.arrowRight {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background: url('../images/arrowLeft.png') no-repeat top left;
+  background-size: 100%;
+}
+
+.shopping {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background: url('../images/shopping.png') no-repeat top left;
+  background-size: 100%;
+}
+
+.shareIcon {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  background: url('../imagesshare_icon/.png') no-repeat top left;
+  background-size: 100%;
+}
+
+.uploadIcon {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: url('../images/upload.png') no-repeat top left;
+  background-size: 100%;
+    top: 1px;
+    position: relative;
+}
+
+.bottom-icon .updownIcon {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: url('../images/updown.png') no-repeat top left;
+  background-size: 100%;
+    top: 1px;
+    position: relative;
+}
+
+ .checkedIcon{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: url('../images/checked.png') no-repeat top left;
+  background-size: 100%;
+    top: 1px;
+    position: relative;
+}
+
+
+body .uncheckedIcon{
+    height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: url('../images/unchecked.png') no-repeat top left ;
+    background-size: 100%;
+      top: 1px;
+      position: relative;
+}
+
+.phoneIcon{
+	height: 20px;
+  width: 20px;
+  display: inline-block;
+  background: url('../images/phone_icon.png') no-repeat top left;
+  background-size: 100%;
+}
+
+.customer-detail{
+	margin: 4px 0;
+}
+
+.padding-zero{
+  padding: 0 0;
+}
+
+.arrow-up{
+  border-top:5px solid transparent; border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid transparent;
+}
+
+.arrow-down{
+  border-top:5px solid transparent; border-left:5px solid transparent;border-right:5px solid #ccc;border-bottom:5px solid transparent;
+}
+
+.add-one{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url('../images/one.png') no-repeat top left;
+    background-size: 100%;
+}
+
+.relative{
+  position: relative;
+}
+
+.center-block{
+  text-align: center;
+}
+
+.font-size-18{
+  font-size: 18px;
+}
+.font-size-16{
+  font-size: 16px;
+}
+.font-size-12{
+  font-size: 16px;
+}
+.font-size-14{
+  font-size: 14px;
+}
+
+.width-3{
+  width: 32%;
+}
+.bg-white{
+  background-color: white;
+}
+
+.arrow-down-css{
+    border-top: 6px solid #929191;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    top: -1px;
+    position: relative; 
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+body .arrow-up-css{
+    border-top: 6px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid #929191;
+    top: -1px;
+   position: relative; 
+    display: inline-block;
+margin-left: 5px;
+
+}
+
+.padding-12{
+      padding: 0 12px
+}
+
+#jiathis_weixin_modal{
+    margin: -180px 0 0 -150px !important;
+    width: 300px !important;
+}
+
+.jtico_weixin{
+    background: url('../images/weixin.png') no-repeat top left !important;
+    background-size: 100% !important;
+    width: 14px !important;
+}
+
+.jtico_cqq{
+    background: url('../images/qq.png') no-repeat top left !important;
+    background-size: 100% !important;
+    width: 14px !important;
+}
+
+.jtico_tsina{
+    background: url('../images/share-weibo.png') no-repeat top left !important;
+    background-size: 100% !important;
+    width: 14px !important;
+}
+
+.jtico_jiathis{
+    background: url('../images/share-more.png') no-repeat top left !important;
+    background-size: 100% !important;
+    width: 14px !important;
+      margin-left: 10px !important;
+}
+
+.jiathis_style_32x32 > a > span{
+  margin-left: 10px !important;
+}
+body .jiathis_style_32x32 .jtico{
+  height: 50px !important;
+}

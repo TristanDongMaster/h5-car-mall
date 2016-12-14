@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>登录</title>
+    <link rel="stylesheet" href="../../css/style-base.css">
+    <link rel="stylesheet" href="../../css/style-common.css">
+</head>
+<body class="login-register-bg">
+    <header>
+      <div class="headerContainer">
+        <div class="headerContainer_left left">
+           <span class="backIcon" onclick="history.back(-1)"></span>
+        </div>
+        <div class="headerContainer_center">
+           <span>登  录</span>
+        </div>
+        <div class="headerContainer_right right">
+           <a class="messIcon" href="../home.html">完成</a>
+        </div>
+     </div>
+    </header>
+    <div class="login-register-container">
+        <div class="row">
+            <div class="row-input-label login-area">
+                 <label>所在地区</label>
+                <select>
+                    <option>上海 浦东</option>
+                    <option>上海 闵行</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-input-label login-phone-number">
+                <label>+86</label>
+                <input type="text"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-input-label">
+                <input type="text" placeholder="请输入密码"/>
+            </div>
+        </div>
+    </div>
+    <div class="row bottom-text">
+        <a href="./forget_password.html">忘记密码？</a>
+    </div>
+</body>
+</html>

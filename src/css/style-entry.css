@@ -1,0 +1,42 @@
+.entry-bg{
+      background: url(../images/entry_bg.png) no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      font-size: 14px;
+ }
+.entry-bg .goodTableTitle{
+    margin:0px 0px 40px 0;
+}
+.entry-bg .goodTableTitle span{
+   display: block;
+}
+.goodTableTitle.weixin {margin-top:40px;}
+.goodTableTitle.weixin a{margin-top:10px;display: inline-block;}
+.entry-bg .goodmianContent{
+    margin-top: 40px;
+}
+.login-btn{
+    border: none;
+    background-color:#DF5411;
+    color: #fff;
+    padding: 6px 18px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.register-btn{
+    border: none;
+    background-color: #fff;
+    color: #DF5411;
+    padding: 6px 18px;
+    font-size: 14px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.trademark{
+    position: fixed;
+    bottom: 20px;
+    z-index: 889;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}

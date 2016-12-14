@@ -1,0 +1,39 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
+nav{
+        box-shadow: 0 0 5px #000;
+}
+.home-bg{
+      background: url(../images/car_home.jpg) no-repeat center center;
+      background-size: cover;
+      position: fixed;
+bottom: 0px;
+top: 0px;
+left: 0px;
+right: 0px;
+ }
+
+ .home-icons li{
+  width: 36%;
+float: left;
+margin-left: 9%;
+   
+ }
+ .goodTableCell{position: relative;}
+ .home-icons li.margin-bottom{
+     margin-bottom: 35px;
+ }
+.arrow-left, .arrow-right{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+}
+.arrow-left{left: 2px;}
+.arrow-right{right: 2px;}
+.arrow-left span{ background:url("../images/arrow_right.png") no-repeat 0 0; width: 32px;height:32px;display: inline-block; background-size: auto 100%;}
+.arrow-right span{background:url("../images/arrow_left.png") no-repeat 0 0; width: 32px;height:32px;display: inline-block; background-size: auto 100%;}

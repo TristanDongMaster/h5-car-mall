@@ -1,0 +1,630 @@
+.container{
+	
+	  padding-top: 33px;
+  padding-bottom: 52px;
+}
+
+.merchant-content-top{
+    padding: 14px 13px;
+    background-color: white;
+    margin-bottom: 1px;
+}
+
+.merchant-content{
+margin: 2px 0;
+}
+.merchant-content .content{
+	float: left;
+}
+
+.content-des{
+	    margin-left: 10px;
+}
+.merchant-content  .content-arrow{
+	float: right;
+	margin-top: 26px;
+}
+
+.content-logo img{
+    width: 64px;
+    height: 64px;
+	    border-radius: 4px;
+}
+
+
+.content-detail .des-title{
+	font-size: 18px;
+	color: #2d2d2d;
+}
+
+.content-detail .price-detail{
+	display: inline-block;
+	    margin-right: 10px;
+	    margin-top: 2px;
+}
+
+.price-detail .price-title{
+	    color: #b2b2b2;
+}
+
+.price-detail .price{
+		color: #ff0000;
+}
+
+
+.bottom-icon img{
+	    width:20px;
+}
+
+.merchant-content-bottom{
+	padding: 8px 13px;
+    background-color: white;
+}
+
+.merchant-content-bottom .bottom-icon{
+	float: left;
+}
+
+.merchant-content-bottom .bottom-icon:nth-child(2), .merchant-content-bottom .bottom-icon:nth-child(3){
+	margin-left: 10%
+}
+
+.merchant-content-bottom .bottom-icon:nth-child(4){
+	float: right;
+}
+
+ .icon , .icon_sm{
+     padding: 0 5px;
+}
+.icon input{
+	position: relative;
+    top: 2px;
+}
+
+.merhcant-header-logo img{
+	height: 198px;
+	width: 100%;
+}
+
+.merhcant-header-des{
+	float: left;
+
+}
+
+.hear-title{
+	font-size: 18px;
+}
+.hear-color{
+	font-size: 16px;
+}
+
+.merhcant-header-share{
+	    float: right;
+	    width: 46px;
+	      border-left: 1px solid gray;
+  padding-left: 24px;
+}
+.merhcant-header-share .icon img{
+	width: 24px;
+	height: 24px;
+}
+.merhcant-header-detail{
+    color: black;
+}
+
+.detail-padding{
+	padding: 10px 13px;
+	background-color: white;
+	margin: 1px;
+}
+
+.car-des{
+	font-size: 14px;
+}
+.car-price{
+	font-size: 14px;
+}
+
+.icon img{
+	    width: 12px;
+    height: 12px;
+    position: relative;
+  top: -1.5px;
+
+}
+
+.icon-more img{
+	width: 30px;
+}
+
+.bottom-icon{
+
+}
+
+
+.icon_sm img{
+	    width: 12px;
+    height: 12px;
+    position: relative;
+  top: -1px;
+}
+
+.icon_bg img{
+	width: 16px;
+    height: 16px;
+    position: relative;
+	top: -2px;
+	left: -2px;
+}
+
+.icon_24 img{
+	width: 24px;
+    height: 24px;
+    position: relative;
+	top: -2px;
+}
+
+.icon-des{
+	text-align: center;
+	color: #2d2d2d;
+}
+
+.price-discount{
+	color: red;
+}
+
+/* .price-detail {
+	margin-top: 2px;
+} */
+
+.line-v{
+height: 1px;
+background-color: gray;
+}
+
+.line-h{
+width: 1px;
+float: left;
+margin-right: 10px;
+}
+.line-h img{
+width: 1px;
+    height: 40px;
+
+}
+
+.dialog-custom-container{
+    position: absolute;
+    background-color: #f6f6f6;
+    bottom: 0px;
+    width: 100%;
+}
+
+.social-share{
+    min-height:100px;
+}
+.social-title{
+	color:  #767676;
+	font-size: 14px;
+}
+.social-share .social-icon{
+    display: inline-block;
+    margin: 0 4px
+
+}
+.social-icon-container{
+    padding: 30px 20px;
+    margin-bottom: 50px; 
+}
+
+.dialog-block{
+	display: none;
+}
+.dialog-custom, .dialog-custom-code, .dialog-block {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(138,138,138,0.4);
+    z-index:1000;
+}
+
+.social-icon .icon img{
+	width: 40px;
+	height: 40px;
+}
+
+.share-closed{
+	    text-align: center;
+    padding: 16px 0;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+/* detail */
+.merchant-detail-img{
+	text-align: center;
+	    margin-top: 20px;
+}
+.merchant-detail-img img{
+	width: 80%;
+}
+.merchant-detail-title{
+	    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/* 我的微店 */
+.share-title{
+	background-color: #ffa401;
+    padding: 8px 20px;
+    color: white;
+}
+
+.store-news{
+	margin-top: 16px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 20px;
+}
+
+.introduce-title{
+	    font-size: 16px;
+    font-weight: bold;
+}
+
+.introduce-des{
+	    padding: 10px 0px;
+	        margin-bottom: 20px;
+}
+
+.share-code-block{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.code-title{
+	    font-size: 14px;
+    margin-top: 6px;
+}
+.code-des{
+	    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.share-code-block .line-v{
+    margin-bottom: 30px;
+}
+.share-code{
+	margin-top: 30px; 
+}
+
+.content-code-logo img{
+	width: 150px;
+	height: 150px;
+}
+
+.share-block{
+	border: 1px solid;
+    width: 60%;
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.order-detail{
+	  color: #767676;
+	    margin-top: 2px;
+}
+
+.order-status{
+	background-color: #e4e2e3;
+	padding: 2px 20px;
+	font-size: 14px;
+}
+
+.order-status .status{
+	color: #ff0000;
+}
+
+.order-status .order-no{
+	color: #8c8a8b;
+}
+
+
+.order-price{
+	margin-right: 4px;
+}
+.price-red{
+	color: #ff0000;
+}
+
+
+.money-status{
+	  padding-right: 6px;
+}
+.money-no{
+	color:#ff0000;
+}
+.money-yes{
+	color:#aaaaaa;
+}
+
+.money-sum{
+	  padding: 20px;
+  font-size: 14px;
+    background-color: white;
+}
+
+#store_new .content-arrow{
+	margin-top: 14px;
+}
+
+.filter-block{
+  position: fixed;
+  top: 36px;
+  z-index: 999;
+  font-size: 14px;
+  background-color: white;
+  width: 100%;
+}
+
+.container-filter{
+	padding-top: 89px !important;
+}
+
+.filter-block .headerContainer_right{
+	  right: 42px;
+	    line-height: 19px;
+}
+
+.filter-btn{
+display: inline-block;
+}
+
+.filter-btn:nth-child(2){
+ margin-right: 10%;
+}
+
+.filter-center{
+	margin-right: auto !important;
+}
+
+.dialog-filter{
+
+	z-index: 998 !important;
+}
+.dialog-filter .dialog-custom-container{
+	  top: 88px;
+  bottom: auto;
+
+}
+
+.filter-value{
+  border-radius: 111px;
+  border: 1px solid #949393;
+  padding: 2px 10px;
+  margin: 4px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 30px;
+
+}
+
+
+.filter-value-container{
+	display: none;
+	    padding: 0 30px;
+}
+
+
+.customer-detail{
+
+	  padding: 8px 13px;
+  font-size: 14px;
+}
+
+.filter-block .filter-order{
+	padding: 16px 13px;
+	position: relative;
+	  text-align: center;
+	  color: #949393;
+}
+.myorder-status{
+	  position: absolute;
+  background-color: white;
+  top: 30px;
+  left: 0px;
+  width: 100px;
+  border: 1px solid gray;
+}
+
+.bank{
+	    background-color: white;
+    padding: 10px 20px;
+}
+.bank img{
+	width: 50px;
+	height: 50px;
+
+}
+
+.withdraw-money{
+	color: #aaaaaa;
+	padding: 5px 30px;
+}
+
+#ensure-withdraw{
+	    background-color: white;
+    width: 100px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px 30px;
+}
+
+.withdraw-sum{
+	margin-left: 50px ;   
+	 font-size: 20px;
+}
+
+.rate-block{
+	margin-top: 10px;
+}
+
+.add-one img{
+	  width: 24px;
+  height: 24px;
+  margin-left: 13px;
+}
+
+.add-icon-block{
+	line-height: 50px;
+	    padding: 14px 13px;
+}
+.add-icon-block input{
+ 	margin-left: 16px;
+ 	font-size: 16px;
+ 	line-height: 30px;
+ 	border: 1px solid #b8b8b8 !important;
+ 	  text-indent: 8px;
+ }
+
+.bank-des{
+	margin-top: 8px
+}
+
+.delete-icon{
+	position: absolute;
+	top: -28px;
+}
+
+.social-icon-container-jia{
+	    width: 60%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.withdraw-des{
+	margin: 8px 0;
+}
+
+.withdraw-value{
+		margin: 8px 0;
+    font-size: 14px;
+}
+.withdraw-title {
+    font-size: 14px;
+    border-bottom: 1px solid #e4e3e3;
+    padding-bottom: 6px;
+}
+
+.withdraw-save{
+	  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.refresh-loading{
+	margin: 40px;
+}
+
+.action-withdraw{
+	margin-left: 8px;
+}
+
+#withdraw-detail .logo img{
+	    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+
+#search{
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 0 4px;
+    background: #b2b2b2 url('../images/search.png') no-repeat left;
+background-size: 7%;
+  text-indent: 16px;
+}
+
+#search_result .merchant-content-top{
+	color: #b2b2b2;
+}
+
+.search-title{
+	    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+#withdraw-dialog .goodTableContent{
+	width: 70%;
+}
+
+.header-center{
+	width: 40%;
+	display: inline-block;
+}
+.header-center a{
+	color: white;
+}
+
+#add_customer .sex-radio{
+    font-size: 16px;
+    padding-left: 65px;
+    padding-bottom: 12px;
+}
+
+#add_customer .sex-radio input{
+	margin-left: 20px;
+    margin-right: 6px;
+    top: 2px;
+    position: relative;
+}
+
+#add_customer{
+	color: #767676;
+}
+
+#add_customer .customer-detail input{
+    line-height: 40px;
+    border: 1px solid #767676 !important;
+    width: 100%;
+}
+.customer-detail textarea{
+	    width: 98.5%;
+	    resize: none;
+}
+
+#withdraw-dialog .closeBtn{
+	width: 12px;
+	height: 12px;
+	  top: 11px;
+}
+
+.search-header{
+	  padding-left: 36px;
+  padding-right: 60px;
+
+}
+
+#pay .order-status {
+	  padding: 16px 13px;
+}
+
+.protocol {
+	padding: 6px 13px;
+}
+
+#merchant .price-right {
+	position: absolute;
+    right: 33px;
+}

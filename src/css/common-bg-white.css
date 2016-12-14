@@ -1,0 +1,30 @@
+body{
+	background-color: white !important;
+	font-family:"microsoft yahei", PingFang-SC-Regular, "Helvetica Neue", Helvetica,  sans-serif; 
+}
+
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+
+.inline-block{
+	display: inline-block;;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+.content-block{
+	padding: 20px 10px;
+}
+
+.center-block{
+	text-align: center;
+}
