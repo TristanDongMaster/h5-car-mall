@@ -2,6 +2,7 @@
   [汽车购物商城](https://tristandongmaster.github.io/h5-car-mall/src/html/home.html)
 
 ## demo
+   <img src="./src/images/demo.png" width="320" height="480" />
   ![DEMO](./src/images/demo.png)
   ![DEMO](./src/images/demo1.png)
   ![DEMO](./src/images/demo2.png =320x480)
